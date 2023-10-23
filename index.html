@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме</title>
@@ -10,11 +13,11 @@
 <body>
 
 <!--Main-->
-<div>
+<div class="main">
     <!--Main content-->
-    <div>
+    <div class="main_content">
         <!--about user-->
-        <div>
+        <div class="about">
             <h2>Front-End Developer</h2>
             <h1>Anton Chornyi</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -23,8 +26,8 @@
 
         </div>
         <!--Projects-->
-        <div>
-            <h3>
+        <div class="projects">
+            <h3 class="project_title">
                 Projects
             </h3>
             <ol>
@@ -43,7 +46,7 @@
             </ol>
         </div>
         <!--Work-->
-        <div>
+        <div class="work">
             <h3>Work Experience</h3>
             <!--Company 1-->
             <div>
@@ -77,20 +80,19 @@
                 </ul>
             </div>
             <br>
+        </div>
+        <!--Education-->
+        <div class="Education">
             <h3>Education</h3>
-            <!--Education-->
-            <div>
-                <h4>National University of Radioelectronics</h4>
-                <h4>Management</h4>
-                <p>September 2009 - June 2014   |   Country</p>
-                
-            </div>
-
+            <h4>National University of Radioelectronics</h4>
+            <h4>Management</h4>
+            <p>September 2009 - June 2014   |   Country</p>
+            
         </div>
     </div>
     <!--Sidebar-->
-    <aside>
-        <img src="img/photo (1).jpg" alt="lol noob kartinka ne vidkrylas">
+    <aside class="sidebar">
+        <img src="img/photo (1).jpg" alt="lol kartinka ne vidkrylas" class="photo">
         <!--Contacts-->
         <div>
             <h3>Contacts</h3>
