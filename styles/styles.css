@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
 }
 
 /* main styles */
@@ -7,7 +8,6 @@ body {
 .main {
     display: flex;
     flex-direction: row-reverse;
-    background-color: #F5F7FA;
     width: 1200px;
     margin: 0 auto;
 }
@@ -16,12 +16,44 @@ body {
 
 .main_content {
     background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 105px 90px;
 }
 
 /* about styles  */
 
 .about {
 
+}
+
+.about_position {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.about_name {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 25px;
+}
+
+.about_description {
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 400px;
+    margin-bottom: 50px;
 }
 
 /* projects styles */
@@ -92,7 +124,7 @@ body {
     margin-bottom: 50px;
 }
 
-.tech_skills {
+.tech_skills, .soft_skills {
     margin-bottom: 50px;
 }
 
@@ -115,7 +147,20 @@ body {
     color: #FFF;
 }
 
-.tech_skills_list {
-    color: #fff;
-    padding: 0;
+.tech_skills_list, .soft_skills_list {
+    color: #ffffff;
+    padding: 0px;
+    margin-left: 18px;
 }
+
+.tech_skills_item, .soft_skills_item {
+    color: #FB6D3A;
+}
+
+.tech_skills_text, .soft_skills_text {
+    color: #FFF;
+    width: 121px;
+    height: 203px;
+    flex-shrink: 0;
+}
+
